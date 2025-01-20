@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #2a966d; /* Change this to any color you want */
+    --animation-duration: 3s;
+  }
+  
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px; /* Space between dots */
+  }
+  
+  .dot {
+    width: 27px;
+    height: 27px;
+    /* background-color: var(--primary-color); */
+    border-radius: 50%;
+    opacity: 0;
+    animation: loader var(--animation-duration) ease-in-out infinite;
+  }
+  
+  /* Sequential delays for each dot */
+  .dot:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .dot:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+  
+  .dot:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  
+  .dot:nth-child(4) {
+    animation-delay: 0.45s;
+  }
+  
+  /* .dot:nth-child(5) {
+    animation-delay: 0.6s;
+  } */
+  
+  /* Keyframes for the loader animation */
+  @keyframes loader {
+    0% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    45% {
+      opacity: 1;
+      transform: scale(0.7);
+    }
+    65% {
+      opacity: 1;
+      transform: scale(0.7);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+  }
+  
