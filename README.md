@@ -15,9 +15,7 @@
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Styling**: CSS (or any library/framework you used, e.g., Bootstrap, Tailwind CSS)
-- **State Management**: React Context API or Redux (if used)
-- **Other Tools**: Git, GitHub, Postman (for API testing)
+- **Styling**: CSS (Tailwind CSS)
 
 ## Installation and Setup
 
