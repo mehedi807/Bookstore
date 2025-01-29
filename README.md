@@ -38,15 +38,15 @@ Follow these steps to set up the project locally on your machine:
          cd backend
          npm install
          npm run dev
-      ```
+         ```
    
        Start the frontend server:
          ```bash
          cd ../frontend
          npm install
          npm run dev
-      ```
+         ```
 
-3. **Access the Application**:
+4. **Access the Application**:
 
    Open your browser and navigate to http://localhost:5555 to view the application.
