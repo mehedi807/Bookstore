@@ -35,16 +35,16 @@ Follow these steps to set up the project locally on your machine:
 
    Start the backend server:
    ```bash
-         cd backend
-         npm install
-         npm run dev
+      cd backend
+      npm install
+      npm run dev
    ```
    
    Start the frontend server:
    ```bash
-         cd ../frontend
-         npm install
-         npm run dev
+      cd ../frontend
+      npm install
+      npm run dev
    ```
 
 4. **Access the Application**:
