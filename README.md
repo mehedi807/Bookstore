@@ -1,6 +1,6 @@
 # Bookstore - A MERN Stack Web Application
 
-Welcome to **Bookstore**, a full-stack CRUD (Create, Read, Update, Delete) web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This is my first MERN project, and it serves as a simple yet functional bookstore management system.
+**Bookstore**, a full-stack CRUD (Create, Read, Update, Delete) web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This is my first MERN project, and it serves as a simple yet functional bookstore management system.
 
 ## Features
 
@@ -25,32 +25,28 @@ Follow these steps to set up the project locally on your machine:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/bookstore.git
+   git clone https://github.com/mehedi807/Bookstore.git
    cd bookstore
+   ```
    
 2. **Install Dependencies and Run the Application**:
 
 Navigate to the client and server directories and install the required dependencies for both frontend and backend.
+
 Start the backend server:
    ```bash
    cd backend
    npm install
    npm run dev
+```
+
 Start the frontend server:
-```bash
-   cd frontend
+   ```bash
+   cd ../frontend
    npm install
    npm run dev
+```
 
-3. **Set Up Environment Variables**:
+3. **Access the Application**:
 
-Create a .env file in the server directory and add your MongoDB connection string and any other necessary environment variables.
-
-env
-Copy
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-
-4. **Access the Application**:
-
-Open your browser and navigate to http://localhost:3000 to view the application.
+Open your browser and navigate to http://localhost:5555 to view the application.
