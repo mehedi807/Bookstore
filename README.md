@@ -34,18 +34,18 @@ Follow these steps to set up the project locally on your machine:
    Navigate to the client and server directories and install the required dependencies for both frontend and backend.
 
    Start the backend server:
-         ```bash
+   ```bash
          cd backend
          npm install
          npm run dev
-         ```
+   ```
    
-         Start the frontend server:
-         ```bash
+   Start the frontend server:
+   ```bash
          cd ../frontend
          npm install
          npm run dev
-         ```
+   ```
 
 4. **Access the Application**:
 
